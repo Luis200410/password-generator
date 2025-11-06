@@ -1,11 +1,15 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Password Generator</title>
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <div class="container">
             <div class="main">
-                <h1>Generate a <span style="color: #4ADF86;">Random Password<span></h1>
+                <h1>Generate a <span>Random Password</span></h1>
                 <p>Never use an insecure password again</p>
             </div>
             <div class="generators">
@@ -15,11 +19,11 @@
             </div>
             <div class="passwords">
                 <div class="pcontainer">
-                    <input type="password" id="passwordOne"></input>
-                    <button id="copyF" onclick="copyPasswordF()">Copy</button>
+                    <input type="password" id="passwordOne" placeholder="none"></input>
+                    <button id="copyF" onclick="copyPasswordF()" placeholder="none">Copy</button>
                 </div>
                 <div>
-                    <input type="password" id="passwordTwo"></input>
+                    <input type="password" id="passwordTwo" placeholder="none"></input>
                     <button id="copyS" onclick="copyPasswordS()">Copy</button>
                 </div>
             </div>

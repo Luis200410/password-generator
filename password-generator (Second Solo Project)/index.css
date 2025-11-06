@@ -4,6 +4,9 @@ body {
     margin: 40px;
 }
 
+span{
+    color: #4ADF86;
+}
 .container{
     display: flex;
     flex-direction: column;
