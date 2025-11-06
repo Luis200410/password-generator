@@ -1,0 +1,96 @@
+body {
+    background-color: #1C1C1C;
+    color: white;
+    margin: 40px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    align-items: start;
+    margin: 20px;
+}
+
+.generators{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.generators button{
+    background-color: #10B981;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: lighter;
+    font-size: 10px;
+}
+
+.generators  input{
+    background-color: white;
+    color: #1C1C1C;
+    text-align: center;
+    width: fit-content;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: lighter;
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.main p{
+    color: grey;
+    font-weight: lighter;
+    font-size: small;
+    padding: 0px;
+}
+
+.passwords{
+    border-top: 1px solid #2F3E53 ;
+    margin-top: 20px;
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+}
+
+.passwords input {
+    margin-top: 40px;
+    margin-left: 100px;
+    padding: 20px 20px;
+    height: fit-content;
+    width: fit-content;
+    background-color:#273549;
+    color: #10B981;
+    font-size: 11px;
+    border-radius: 5px;
+    border: none;
+}
+
+#passwordOne{
+    text-align: center;
+    justify-content: center;
+}
+
+#passwordTwo{
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+.passwords button{
+    background-color: #10B981;
+    padding: 15px 30px;
+    margin: 10px 40px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: lighter;
+    font-size: 10px;    
+}
