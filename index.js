@@ -9,7 +9,7 @@ function randomPassword() {
     passwordF.textContent = ""
     passwordS.textContent = ""
     userLenght = userLenght.value
-    for (randomF = 0;  randomF < userLenght; randomF++){
+    for (let randomF = 0;  randomF < userLenght; randomF++){
         let randomF = Math.floor(Math.random() * characters.length)
         passwordF.value += characters[randomF]
     
